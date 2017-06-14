@@ -9,4 +9,7 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
+
+  a < b  ? a * 0.5 : b * 0.5
+
 end
